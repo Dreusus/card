@@ -1,7 +1,6 @@
 import React from 'react';
-import {FaTelegram, FaVk, FaXTwitter} from "react-icons/fa6";
+import {FaTelegram, FaVk} from "react-icons/fa6";
 import {LuInstagram, LuLinkedin} from "react-icons/lu";
-import {PiMastodonLogoBold} from "react-icons/pi";
 import Resume from './resume';
 import Frontpageanimation from './frontpageanimation';
 import Github from "./github"

@@ -9,13 +9,13 @@ const Contact = () => {
     const [message, setMessage] = useState('');
     const handleSubmit = (e) => {
         e.preventDefault();
-        const SERVICE_ID = "service_nlt83zq";
-        const TEMPLATE_ID = "template_3n2ogss";
-        const PUBLIC_KEY = "kL3_fXr-YyqZQRFW_";
+        const SERVICE_ID = "service_gfqsent";
+        const TEMPLATE_ID = "template_5g9ecph";
+        const PUBLIC_KEY = "VK6XAOg04c6-aVQ_G";
         const templateParams = {
             from_name: name,
             from_email: email,
-            to_name: 'Ankit',
+            to_name: 'Dreusus',
             message: message,
         };
         emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)

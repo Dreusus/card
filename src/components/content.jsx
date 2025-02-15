@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaXTwitter} from "react-icons/fa6";
+import {FaTelegram, FaXTwitter} from "react-icons/fa6";
 import {LuInstagram, LuLinkedin} from "react-icons/lu";
 import {PiMastodonLogoBold} from "react-icons/pi";
 import Resume from './resume';
@@ -28,15 +28,15 @@ const content = () => {
             </div>
             <div className="flex md:p-6 pt-4 space-x-2.5 w-full md:pt-8 md:pb-8">
                 <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300'
-                   href="https://www.twitter.com/">
-                    <FaXTwitter size={23}/>
+                   href="https://t.me/dreusus">
+                    <FaTelegram size={23}/>
                 </a>
                 <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300'
-                   href="https://www.linkedin.com/">
+                   href="https://www.linkedin.com/in/dreusus/">
                     <LuLinkedin size={23}/>
                 </a>
                 <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300'
-                   href="https://www.instagram.com/">
+                   href="https://www.instagram.com/dreusus">
                     <LuInstagram size={23}/>
                 </a>
                 <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300'

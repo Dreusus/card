@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaTelegram, FaXTwitter} from "react-icons/fa6";
+import {FaTelegram, FaVk, FaXTwitter} from "react-icons/fa6";
 import {LuInstagram, LuLinkedin} from "react-icons/lu";
 import {PiMastodonLogoBold} from "react-icons/pi";
 import Resume from './resume';
@@ -40,8 +40,8 @@ const content = () => {
                     <LuInstagram size={23}/>
                 </a>
                 <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300'
-                   href="https://mastodon.social/">
-                    <PiMastodonLogoBold size={23}/>
+                   href="https://vk.com/jesusgodfather97">
+                    <FaVk size={23}/>
                 </a>
             </div>
             <div>

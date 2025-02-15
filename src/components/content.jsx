@@ -28,19 +28,19 @@ const content = () => {
             </div>
             <div className="flex md:p-6 pt-4 space-x-2.5 w-full md:pt-8 md:pb-8">
                 <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300'
-                   href="https://www.twitter.com/marshdit">
+                   href="https://www.twitter.com/">
                     <FaXTwitter size={23}/>
                 </a>
                 <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300'
-                   href="https://www.linkedin.com/in/ankit-dey-kiit">
+                   href="https://www.linkedin.com/">
                     <LuLinkedin size={23}/>
                 </a>
                 <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300'
-                   href="https://www.instagram.com/anxit_dxy/">
+                   href="https://www.instagram.com/">
                     <LuInstagram size={23}/>
                 </a>
                 <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300'
-                   href="https://mastodon.social/@ankit_dey">
+                   href="https://mastodon.social/">
                     <PiMastodonLogoBold size={23}/>
                 </a>
             </div>

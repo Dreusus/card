@@ -9,7 +9,7 @@ const Contact = () => {
     const [message, setMessage] = useState('');
     const handleSubmit = (e) => {
         e.preventDefault();
-        const SERVICE_ID = "service_gfqsent";
+        const SERVICE_ID = "service_rmlkvyr";
         const TEMPLATE_ID = "template_5g9ecph";
         const PUBLIC_KEY = "VK6XAOg04c6-aVQ_G";
         const templateParams = {

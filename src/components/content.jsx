@@ -16,8 +16,8 @@ const content = () => {
             <div className='text-center'>
                 {/* <h1 className='text-left md:px-2 md:pb-2 px-3 font-normal text-2xl font-poppins text-black'>My Name is</h1> */}
                 <br/>
-                <h1 className='text-left font-medium text-7xl md:text-8xl font-rubix bg-gradient-to-r from-[#833be7cb] to-[#5521c5] bg-clip-text text-transparent'>Ankit</h1>
-                <h1 className='text-left md:pb-6 pt-2 md:pt-0 pb-7 leading-10 font-semibold text-6xl md:text-7xl font-rubix'>Dey</h1>
+                <h1 className='text-left font-medium text-7xl md:text-8xl font-rubix bg-gradient-to-r from-[#833be7cb] to-[#5521c5] bg-clip-text text-transparent'>Andrey</h1>
+                <h1 className='text-left md:pb-6 pt-2 md:pt-0 pb-7 leading-10 font-semibold text-6xl md:text-7xl font-rubix'>Polyakov</h1>
                 <hr className='md:w-24 w-20 md:mb-0 mb-4 h-3 bg-gradient-to-r from-[#c580f0ed] to-[#c580f0c8]'></hr>
             </div>
             <div className='text-[rgb(15,23,42)] text-center'>

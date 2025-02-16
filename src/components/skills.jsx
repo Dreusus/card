@@ -12,10 +12,16 @@ import linux from './icons/linux.svg';
 import powershell from './icons/powershell.svg';
 import bash from './icons/bash.svg';
 import docker from './icons/docker.svg';
+import selenium from './icons/selenium.svg';
 import mongodb from './icons/mongodb.svg';
 import redis from './icons/redis.svg';
 import pg from './icons/pg.svg';
 import ch from './icons/ch.svg';
+import css from './icons/css.svg';
+import html from './icons/html.svg';
+import js from './icons/js.svg';
+import react from './icons/react.svg';
+import gitlab from './icons/gitlab.svg';
 import '@dotlottie/react-player/dist/index.css';
 
 
@@ -48,6 +54,9 @@ const Skills = () => {
                     <img src={playwright} alt="Playwright" style={{width: 45, height: 45}}
                          className='inline md:pb-3 md:mr-1'/>
                     <img src={pytest} alt="Pytest"
+                         style={{width: 45, height: 45}}
+                         className='inline md:pb-3 md:mr-1'/>
+                    <img src={selenium} alt="Selenium"
                          style={{width: 45, height: 45}}
                          className='inline md:pb-3 md:mr-1'/>
                 </div>
@@ -83,6 +92,20 @@ const Skills = () => {
                     <img src={pg} alt="PostgreSQL" style={{width: 45, height: 45}} className='inline md:pb-3 md:mr-1'/>
                     <img src={ch} alt="Ch" style={{width: 45, height: 45}} className='inline md:pb-3 md:mr-1'/>
                     <img src={redis} alt="Redis" style={{width: 45, height: 45}} className='inline md:pb-3 md:mr-1'/>
+                    <img src={mongodb} alt="Mongo" style={{width: 45, height: 45}} className='inline md:pb-3 md:mr-1'/>
+                </div>
+
+                <div>
+                    <h1 className='md:font-semibold font-bold md:text-2xl md:pt-1.5 md:inline-block md:mr-5 md:mb-0 mb-2.5 md:mt-0 mt-2'>Web</h1>
+                    <img src={html} alt="HTML" style={{ width: 45, height: 45 }} className='inline md:pb-3 md:mr-1' />
+                    <img src={css} alt="CSS" style={{ width: 45, height: 45 }} className='inline md:pb-3 md:mr-1' />
+                    <img src={js} alt="JavaScript" style={{ width: 45, height: 45 }} className='inline md:pb-3 md:mr-1' />
+                    <img src={react} alt="React" style={{ width: 45, height: 45 }} className='inline md:pb-3 md:mr-1' />
+                </div>
+                <div>
+                    <h1 className='md:font-semibold font-bold md:text-2xl md:pt-1.5 md:inline-block md:mr-5 md:mb-0 mb-2.5 md:mt-0 mt-2'>CI/CD</h1>
+                    <img src={docker} alt="Docker" style={{ width: 45, height: 45 }} className='inline md:pb-3 md:mr-1' />
+                    <img src={gitlab} alt="GitLab" style={{ width: 45, height: 45 }} className='inline md:pb-3 md:mr-1' />
                 </div>
             </div>
         </div>

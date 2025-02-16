@@ -37,7 +37,7 @@ const About = () => {
                     </ul>
                 </div>
                 <div className='md:mt-3'>
-                    <h1 className='text-3xl font-poppins font-medium md:ml-10'>In Development</h1>
+                    <h1 className='text-3xl font-poppins font-medium md:ml-10'>In Dev</h1>
                     <hr className='md:w-64 w-32 md:mb-0 mb-4 h-1 mt-3 bg-gradient-to-r from-[#c580f0ed] to-[#c580f0c8]'></hr>
                     <p className='md:ml-10 text-xl'><GoDot className='inline'/> In Development</p>
                 </div>

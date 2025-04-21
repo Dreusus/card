@@ -1,0 +1,60 @@
+.resume-container {
+    border: 1px solid #00000095;
+    width: 190px;
+    height:48px;
+    position: relative;
+    left: 0;
+    margin-left: 1.5rem; /* на устройствах md (medium) */
+    border-radius: 9999px; /* круглые края */
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    top: 1.5rem; /* на устройствах */
+}
+
+.resume-container:hover {
+    color: white; /* Добавляем эффект hover на контейнер */
+}
+
+.resume-bg {
+    background: linear-gradient(to top, #6002b8bb, #a858b3);
+    position: absolute;
+    width: 10.5rem; /* 42px */
+    height: 6rem; /* 24px */
+    left: 5rem; /* для md устройства */
+    transform: rotate(90deg);
+    transform-origin: bottom right; /* Правильное свойство */
+    transition: all 0.5s ease-out;
+}
+
+.resume-container:hover .resume-bg {
+    transform: rotate(0deg) scale(1.5) translateX(3rem); /* Применяем эффекты при наведении */
+    width: 16rem; /* Увеличиваем ширину */
+}
+
+.resume-button {
+    width: 12rem; /* 48px */
+    height: 3rem; /* 12px */
+    border: 1px solid #d1d5db8f;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: space-evenly;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.icon {
+    padding-top: 0.75rem;
+    padding-left: 0.25rem;
+    z-index: 20;
+}
+
+.resume-text {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 1.25rem; /* 1xl */
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 0.375rem;
+    padding-right: 0.5rem;
+}

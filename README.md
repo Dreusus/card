@@ -1,1 +1,2 @@
-some readme
+yarn install
+npm run start
